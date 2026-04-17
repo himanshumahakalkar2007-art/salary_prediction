@@ -104,7 +104,6 @@ label_encoders = joblib.load('label_encoders.pkl')
 
 print('Label encoders loaded successfully.')
 
-!pip install streamlit
 import streamlit as st
 import joblib
 import pandas as pd
